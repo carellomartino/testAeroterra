@@ -6,25 +6,29 @@
 
   </head>
   <body>
-    <h3>Complete the form to add a new place</h3>
+    <h3>Complete el formulario para agregar un lugar</h3>
     <div>
-        <form>
+        <form id="form-id">
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              <label for="descripcion">Descripcion</label>
+              <input id="form" type="text" class="form-control" aria-describedby="emailHelp" placeholder="ej: AEROTERRA S.A.">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <label for="direccion">Direccion</label>
+              <input type="text" class="form-control" placeholder="ej: Av. Eduardo Madero 1020, C1001 CABA">
             </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="form-group">
+                <label for="telefono">Numero telefonico</label>
+                <input type="number" class="form-control" placeholder="ej: 54 9 11 5272 0900">
+              </div>
+              <div class="form-group">
+                <label for="coordenadas">Coordenadas</label>
+                <input type="number" class="form-control" placeholder="ej: -34.595986,-58.3724715">
+              </div>
+            <button type="button" class="btn btn-primary" onclick="submitt()">Submit</button>
           </form>
+
     </div>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script2.js"></script>
   </body>
 </html>
