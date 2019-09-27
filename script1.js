@@ -8,3 +8,6 @@
     
 //     var marker = new google.maps.Marker({position: location, map: map});
 //   }
+
+
+//comment in the last line!
