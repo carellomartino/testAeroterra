@@ -1,5 +1,5 @@
 // function initMap() {
-//     var latitud = 
+//     var lati = 
     
 //     var location = {lat: -25.344, lng: 131.036};
     
